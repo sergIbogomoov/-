@@ -19,7 +19,7 @@
 					<v8:content>Расш1 прием с клик</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>v. 1.0.0.1</Comment>
+			<Comment>v. 1.0.0.2</Comment>
 			<DefaultForm>ExternalDataProcessor.Расш1_ПриемСКлик.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>

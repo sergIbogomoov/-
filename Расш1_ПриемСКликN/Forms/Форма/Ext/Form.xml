@@ -12,6 +12,11 @@
 				<CommandName>Form.Command.Отправить</CommandName>
 				<ExtendedTooltip name="ФормаОтправитьРасширеннаяПодсказка" id="7"/>
 			</Button>
+			<Button name="ФормаРСКонтрагентов" id="8">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.РСКонтрагентов</CommandName>
+				<ExtendedTooltip name="ФормаРСКонтрагентовРасширеннаяПодсказка" id="9"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -78,6 +83,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Отправить</Action>
+		</Command>
+		<Command name="РСКонтрагентов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Р/с контрагентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>РСКонтрагентов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РСКонтрагентов</Action>
 		</Command>
 	</Commands>
 </Form>
